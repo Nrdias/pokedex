@@ -1,0 +1,25 @@
+ol {
+  list-style: none;
+}
+
+.pokeCard {
+  height: 500px;
+  width: 300px;
+}
+
+.pokeCard .details .types {
+  margin: 0;
+  padding: 0;
+}
+
+.pokeCard .details .types .type {
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  font-size: 0.625rem;
+  border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
+}
+.pokeCard .details .progressBar{
+  margin-bottom: 1px;
+}
