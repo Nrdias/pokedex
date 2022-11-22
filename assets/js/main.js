@@ -24,6 +24,7 @@ function convertPokemon(pokemon) {
         </li>
     `;
 }
+
 function loadPokemon(offset, limit) {
   pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
     const newHtml = pokemons.map(convertPokemon).join("");
