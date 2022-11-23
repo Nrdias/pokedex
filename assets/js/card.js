@@ -41,8 +41,8 @@ let details = (url) =>
         .join("")}</div>
       </ol>
     </div>
-    <div class="button">
-          <a id="backButton" class="btn btn-primary m-2">Back</a>
+    <div id="backButton" class="button">
+          <a class="btn btn-primary m-2">Back</a>
     </div>
   </section>
   `;
