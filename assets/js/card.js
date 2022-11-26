@@ -23,7 +23,9 @@ let details = (url) =>
       <span class="name">${pokemon.name.toUpperCase()}</span>
       <span class="number">#${pokemon.id}</span>
     </div>
-    <img class="img" src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.name}">
+    <img class="img" src="${
+      pokemon.sprites.other.dream_world.front_default
+    }" alt="${pokemon.name}">
     </div>
     <div class="details">
       <ol class="types">
